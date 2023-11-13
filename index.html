@@ -1,37 +1,52 @@
-<!-- FILEPATH: /c:/Software Projects/DevProject/Webpage 1.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
         <title>The Learning Platform</title>
     </head>
     <body>
-        <h1>Mission Statement</h1>
-        <p>This website is under development. Its primary purpose will be to allow me a workspace where I can practice multiple forms of coding. So beware of broken buttons and useless bits of information in random places.</p>
-        <h2>Goals</h2>
-        <ol class="goals">
-            <li>Gain a fuller understanding of HTML</li>
-            <li>Get good with CSS</li>
-            <li>Learn JavaScript</li>
-            <li>Create multiple projects which can be sold</li>
-        </ol>
-        <img src="./resources/images/StockPhoto1.jfif" class="photo1">
-        <h3>Resources</h3>
-        <div class="container">
-            <div style="display: flex;">
-                <a href="https://www.codecademy.com/" class="Links">
-                    <img src="./resources/images/codecademy.jpg" alt="Codecademy" style="margin-top: -0px;">
-                </a>
-                <a href="https://www.galvanize.com/" class="Links">
-                    <img src="./resources/images/galvanize.png" alt="Galvanize">
-                </a>
-                <a href="https://www.w3schools.com/html/html_css.asp" class="Links">
-                    <img src="./resources/images/w3schools.png" alt="W3Schools">
-                </a>
-            </div>
-        </div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="login" style="float: right;">
+                    <a href="#">Login</a>
+                    <a href="#">Sign Up</a>
+                </div>
+            </nav>
+            </nav>
+        </header>
+        <main>
+            <section class="welcome">
+                <h1>Welcome to The Learning Platform</h1>
+                <p>This website is under development. Its primary purpose is to allow me a workspace where I can practice multiple forms of coding. So beware of broken buttons and useless bits of information in random places.</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=P9D9I9rQJSKDJae9" class="cta-button" target="_blank">Take A Seat</a>
+            </section>
+            <section class="goals">
+                <h2>Goals</h2>
+                <ul>
+                    <li style="text-decoration: line-through;">Gain a fuller understanding of HTML</li>
+                    <li>Get <del>good</del> decent with CSS</li>
+                    <li>Learn JavaScript</li>
+                    <li>Create multiple projects which can be sold</li>
+                </ul>
+            </section>
+            <section class="resources">
+                <h2>Resources</h2>
+                <ul>
+                    <li><button><a href="https://www.codecademy.com/"><img src="./resources/images/codecademy.jpg" alt="Codecademy" width="100" height="100"></a></button></li>
+                    <li><button><a href="https://www.galvanize.com/"><img src="./resources/images/galvanize.png" alt="Galvanize" width="100" height="100"></a></button></li>
+                    <li><button><a href="https://www.w3schools.com/html/html_css.asp"><img src="./resources/images/w3schools.png" alt="W3Schools" width="100" height="100"></a></button></li>
+                </ul>
+            </section>
+        </main>
         <footer>
-            <p><strong>Thank you for visiting.</strong></p>
+            <p>&copy; 2021 The Learning Platform. All rights reserved.</p>
         </footer>
     </body>
 </html>
