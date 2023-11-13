@@ -1,0 +1,35 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    text-decoration: underline black;
+}
+
+.goals li {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+}
+
+.photo1 {
+    display: block;
+    margin: -120px auto 0;
+   }
+   margin: 0 auto;
