@@ -919,11 +919,15 @@ table {
     text-align: center;
     font-size: 20px;
     color: black;
-    border: 1px solid black;
+    box-sizing: border-box;
+        border: 1px solid black;
     padding: 10px;
     margin: 10px;
     width: 200px;
-    display: block;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
     margin: 0 auto;
     transition duration: 0.5s;
     box-shadow: 5px 5px 5px black;
