@@ -1,5 +1,6 @@
 * {
-    width: 100%;
+    width: auto;
+    height: auto;
     font-family: 'Times New Roman', Times, serif;
     background-color: gray;
 }
